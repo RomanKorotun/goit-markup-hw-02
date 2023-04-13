@@ -31,6 +31,7 @@
 
 body {
   font-family: var(--primary-font);
+  color: var(--primary-color);
   background: var(--background-bady);
 }
 
@@ -60,7 +61,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-color);
 }
 
 .header-menu-link:hover,
@@ -108,17 +108,20 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--hero-color);
 }
 
 .hero-modal-btn {
+  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--hero-color);
   background: var(--bacground-hero-btn);
+  cursor: pointer;
 }
 .hero-modal-btn:hover,
 .hero-modal-btn:focus {
@@ -134,7 +137,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--primary-color);
 }
 .features-list-description {
   font-weight: 400;
@@ -153,8 +155,8 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
-  color: var(--primary-color);
 }
 
 /* ============================== /Projects ============================== */
@@ -170,8 +172,8 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
-  color: var(--primary-color);
 }
 .team-list-item {
   background: var(--background-team-card);
@@ -181,7 +183,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--primary-color);
 }
 .team-list-profession {
   font-weight: 400;
@@ -196,8 +197,16 @@ body {
 /* ============================== Portfolio clients ============================== */
 
 .clients-filter-btn {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
   background: var(--clients-filter-btn-background);
   color: var(--clients-filter-btn-color);
+  cursor: pointer;
 }
 .clients-filter-btn:hover,
 .clients-filter-btn:focus {
@@ -209,7 +218,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--primary-color);
 }
 .client-list-description {
   font-weight: 400;
