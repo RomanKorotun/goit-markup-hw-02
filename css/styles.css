@@ -4,7 +4,8 @@
   --accent-color-link: #404bbf;
   --secondary-color: #2e2f42;
   --primary-color: #434455;
-  --primary-color-link: #2e2f42;
+  --primary-color-link-navigation: #2e2f42;
+  --primary-color-link-address: #434455;
   --bacground-hero-btn: #4d5ae5;
   --accent-background-hero-btn: #404bbf;
   --background-team: #f4f4fd;
@@ -61,7 +62,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-color-link);
+  color: var(--primary-color-link-navigation);
 }
 
 .header-menu-link:hover,
@@ -77,26 +78,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-color-link);
+  color: var(--primary-color-link-address);
 }
 
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-color-link);
 }
-
-/* .contact-link {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-color-link);
-}
-
-.contact-phone-number:hover,
-.contact-phone-number:focus {
-  color: var(--accent-color-link);
-} */
 
 /* ============================== /Header ============================== */
 
