@@ -4,6 +4,7 @@
   --accent-color-link: #404bbf;
   --primary-color: #2e2f42;
   --secondary-color: #434455;
+  --primary-color-link: #2e2f42;
   --bacground-hero-btn: #4d5ae5;
   --accent-background-hero-btn: #404bbf;
   --background-team: #f4f4fd;
@@ -11,9 +12,9 @@
   --background-bady: #ffffff;
   --background-hero: #2e2f42;
   --background-footer: #2e2f42;
-  --logo-span: #4d5ae5;
-  --logo-dark-theme: #2e2f42;
-  --logo-light-theme: #f4f4fd;
+  --logo-color: #4d5ae5;
+  --logo-header-color: #2e2f42;
+  --logo-footer-color: #f4f4fd;
   --hero-color: #ffffff;
   --footer-description-color: #f4f4fd;
   --clients-filter-btn-color: #4d5ae5;
@@ -44,23 +45,23 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.logo-text {
-  color: var(--logo-span);
+  color: var(--logo-color);
 }
 
 /* ============================== /Components ============================== */
 
 /* ============================== Header ============================== */
 
-.logo-dark {
-  color: var(--logo-dark-theme);
+.logo-header-color {
+  color: var(--logo-header-color);
 }
+
 .header-menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--primary-color-link);
 }
 
 .header-menu-link:hover,
@@ -218,6 +219,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--primary-color);
 }
 .client-list-description {
   font-weight: 400;
@@ -231,8 +233,8 @@ body {
 
 /* ============================== Footer ============================== */
 
-.logo-light {
-  color: var(--logo-light-theme);
+.logo-footer-color {
+  color: var(--logo-footer-color);
 }
 .footer {
   background: var(--background-footer);
