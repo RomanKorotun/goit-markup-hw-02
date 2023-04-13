@@ -2,10 +2,8 @@
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
   --accent-color-link: #404bbf;
-
   --secondary-color: #2e2f42;
   --primary-color: #434455;
-
   --primary-color-link: #2e2f42;
   --bacground-hero-btn: #4d5ae5;
   --accent-background-hero-btn: #404bbf;
@@ -74,20 +72,20 @@ body {
 .address {
   font-style: normal;
 }
-.contact-email {
+.contact-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--primary-color-link);
+}
+
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-color-link);
 }
 
-.contact-email:hover,
-.contact-email:focus {
-  color: var(--accent-color-link);
-}
-
-.contact-phone-number {
+/* .contact-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -98,7 +96,7 @@ body {
 .contact-phone-number:hover,
 .contact-phone-number:focus {
   color: var(--accent-color-link);
-}
+} */
 
 /* ============================== /Header ============================== */
 
@@ -230,6 +228,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--primary-color);
 }
 
 /* ============================== /Portfolio clients ============================== */
